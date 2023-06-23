@@ -1,0 +1,9 @@
+drop database if exists jdbc_article_manager;
+create database jdbc_article_manager;
+use jdbc_article_manager;
+
+insert into article
+set regDate = now(),
+	updateDate = now(),
+	title = concat('제목', rand()),
+	body = concat('내용', rand());
