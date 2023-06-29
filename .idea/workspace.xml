@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a2168d3-fc98-4392-8523-ef81ce2b2429" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/DB.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/App.java" afterDir="false" />
+    <list default="true" id="8a2168d3-fc98-4392-8523-ef81ce2b2429" name="변경" comment="App 이전">
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/dao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/exception/SQLErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/JAM/util/SecSql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC_Article_Manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC_Article_Manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/JAM/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/JAM/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/JAM/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/JAM/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/JAM/JDBCConnectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/JAM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/JAM/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RYNrYzm0nq0RJbQnBsjFfQL2NZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +72,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687423253529</updated>
     </task>
+    <task id="LOCAL-00001" summary="App 이전">
+      <created>1687491225669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687491225669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="App 이전" />
+    <option name="LAST_COMMIT_MESSAGE" value="App 이전" />
   </component>
 </project>
